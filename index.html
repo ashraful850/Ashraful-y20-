@@ -1,0 +1,181 @@
+<!DOCTYPE html>  
+<html>  
+   <head>  
+      <title>It's my new page</title>  
+      <style>  
+    body {  
+      background-color: #eaf5e4;  
+      font-family: Arial, sans-serif;  
+      margin: 0;  
+      padding: 0;  
+    }  
+    header {  
+      background-color: green;  
+      color: white;  
+      padding: 20px 0;  
+      text-align: center;  
+    }  
+    nav {  
+      margin-top: 10px;  
+    }  
+    nav a {  
+      text-decoration: none;  
+      color: white;  
+      background-color: #444;  
+      padding: 8px 12px;  
+      border-radius: 5px;  
+      margin: 0 5px;  
+      font-weight: bold;  
+      transition: 0.3s;  
+    }  
+    nav a:hover {  
+      background-color: #ff9900;  
+    }  
+    main {  
+      color: #222;  
+      font-size: 16px;  
+      padding: 20px;  
+      max-width: 800px;  
+      margin: auto;  
+    }  
+    section {  
+      margin-bottom: 30px;  
+      background-color: #fff;  
+      padding: 15px;  
+      border-radius: 10px;  
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);  
+    }  
+    h2 {  
+      color: #2a7cff;  
+    }  
+    video, audio {  
+      width: 100%;  
+      margin-top: 10px;  
+      border: 2px solid #ccc;  
+      border-radius: 5px;  
+    }  
+    footer {  
+      background-color: #222;  
+      color: #ccc;  
+      text-align: center;  
+      padding: 15px;  
+      margin-top: 30px;  
+    }  
+      </style>  
+   </head>  
+   <body>  
+      <header>  
+         <h1>Welcome to Ashraful y20</h1>  
+         <nav>  
+            <a href="#"> Home </a> |  
+            <a href="#"> project </a> |  
+            <a href="#"> contact </a>  
+         </nav>  
+      </header>  
+      <main>  
+         <section>  
+            <h2>About me</h2>  
+            <p>My name Ashraful islam.<br>I have to learning English.<strong> I am a student.</strong> And <em>I am in class XII.</em> My favorite job is Freelancing.</p>  
+         </section>  
+         <section>  
+            <h2>Unordered list</h2>  
+               <ul>  
+                  <li>HTML</li>  
+                  <li>CSS</li>  
+                  <li>JavaScript</li>  
+                  <li> Speaking English</li>  
+               </ul>  
+            <h2>Ordered list</h2>  
+               <ol>  
+                  <li>I have to Learning HTML</li>  
+                  <li>This is simple time learning CSS</li>  
+                  <li>JavaScript is coming soon</li>  
+                  <li>I have to learning English</li>  
+               </ol>  
+         </section>  
+         <hr size="10" color=green;>  
+         <section>  
+            <h2>Useful link</h2>  
+               <a href="https://m.facebook.com" target="_blank">Learn more</a>  
+         </section>  
+         <section>  
+            <h2>It's my Picture </h2>  
+                  <img src="https://i.postimg.cc/DzFtGXcF/chrome-image-Mar-9-2023-10-00-36-PM-GMT-06-00.png" alt="My Simple picture">  
+         </section>  
+         <hr size="8" color="red">  
+         <section>  
+            <table border="3">  
+               <tr>  
+                  <th>Practice</th>  
+                  <th>Time</th>  
+                  <th>Topic</th>  
+               </tr>  
+               <tr>  
+                  <td>day 1,7</td>  
+                  <td>3 hours</td>  
+                  <td>HTML learning</td>  
+               </tr>  
+               <tr>  
+                  <td>day 8,14</td>  
+                  <td>2 hours</td>  
+                  <td>CSS learning</td>  
+               </tr>  
+               <tr>  
+                  <td>day......</td>  
+                  <td>coming soon</td>  
+                  <td>JavaScript learning</td>  
+               </tr>  
+               <tr>  
+                  <td>day.....</td>  
+                  <td> 2 hours</td>  
+                  <td>I have to learning English</td>  
+               </tr>  
+            </table>  
+         </section>  
+         <hr size="7" color="navy">  
+         <section>  
+            <h2>Watch my new video</h2>  
+               <video width="320" height="240"controls>  
+                  <source src="simple-video.mp4" type="video/mp4">  
+                      Your browser does not support the video tag.  
+               </video>  
+         </section>  
+         <section>  
+            <h2>My new Audio Listen</h2>  
+               <audio controls>  
+                  <source src="simple-audio.mp3" type="audio/mp3">  
+                  Your browser does not support the audio tag.  
+               </audio>  
+         </section>  
+         <section>  
+            <h2>contact form</h2>  
+               <form>  
+                  <fieldset>  
+                     <legend>Parsonal details</legend>  
+                     Name:<input type="text" name="name"><br><br>  
+                     Email:<input type="email" name="email"><br><br>  
+                  Message:<br>  
+                  <textarea rows="3" cols="30"></textarea><br>  
+                  </fieldset>  
+                  <fieldset>  
+                     <legend>Your Gender</legend>  
+                     <label><input type="radio" name="gender" value="male">Male</label><br>  
+                     <label><input type="radio" name="gender" value="female">Female</label><br>  
+                  <label><input type="radio" name="gender" value="others">Others</label><br>  
+                  </fieldset>  
+                  <fieldset>  
+                     <legend>skill</legend>  
+                     <label><input type="checkbox" name="skill" value="html">HTML</label><br>  
+                     <label><input type="checkbox" name="skill" value="css">CSS</label><br>  
+                     <label><input type="checkbox" name="skill" value="javascript">JavaScript</label><br>  
+                  </fieldset>  
+                  <hr size="5" color="black">  
+                  <button type="submit">Send Now</button>  
+               </form>  
+         </section>  
+      </main>  
+      <footer>  
+         <p>&copy; 2025 Ashraful islam | All Rights Reserved.</p>  
+      </footer>  
+   </body>  
+</html>
